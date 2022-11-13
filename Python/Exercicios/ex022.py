@@ -1,0 +1,6 @@
+nome = str(input()).strip()
+print(nome.upper())
+print(nome.lower())
+print(len(nome) - nome.count(' '))
+separador = nome.split()
+print('o primeiro nome e {} e ele tem {} letras'.format(separador[0], len(separador[0])))
